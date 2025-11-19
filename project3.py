@@ -10,4 +10,5 @@ password = ""
 
 for i in range(length):
     password+=random.choice(char)
-print(password)
+
+print(f"The password is : {password} " )
